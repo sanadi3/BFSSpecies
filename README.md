@@ -1,2 +1,2 @@
 # BFSSpecies
-Altered BFS algorithm to simulate an invasive species' eating patterns.
+Altered BFS algorithm to simulate an invasive species' eating patterns. The code ipelements a queue to simulate a radial BFS search, where each possible feeding coordinate for the species is added, all of that coordinate's neighbors are also added until the queue is empty. There are multiple frogs on the board. Once each frog exhausts all the food from its entrance, the algorithm releases another frog. The number of frogs used and the number of uncollectable food is tracked, which required a helper method GridScan.
